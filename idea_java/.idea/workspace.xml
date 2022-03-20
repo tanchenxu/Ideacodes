@@ -38,7 +38,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.EasyTest">
+  <component name="RunManager" selected="Application.ElectronicMask">
     <configuration name="CoinMethodNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.DP.CoinMethodNumber" />
       <module name="LanQiaoSuanFa" />
@@ -54,6 +54,19 @@
     </configuration>
     <configuration name="EasyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.EasyTest" />
+      <module name="LanQiaoSuanFa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuya.DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElectronicMask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.ElectronicMask" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -91,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroOneBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DP.ZeroOneBag" />
-      <module name="LanQiaoSuanFa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akuya.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElectronicMask" />
         <item itemvalue="Application.EasyTest" />
         <item itemvalue="Application.MazePath" />
         <item itemvalue="Application.FrogJumpingStone" />
         <item itemvalue="Application.CoinMethodNumber" />
-        <item itemvalue="Application.ZeroOneBag" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +139,8 @@
       <workItem from="1647598148349" duration="6158000" />
       <workItem from="1647606069628" duration="58000" />
       <workItem from="1647606139613" duration="10157000" />
+      <workItem from="1647743338195" duration="10295000" />
+      <workItem from="1647758521929" duration="1323000" />
     </task>
     <servers />
   </component>
@@ -154,9 +156,9 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/DFS/EasyTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/DFS/ElectronicMask.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
@@ -166,8 +168,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="mery" language="JAVA" />
-        <watch expression="temp" language="JAVA" />
+        <watch expression="capacity.length()-temp.length()-1" language="JAVA" />
+        <watch expression="capacity" />
+        <watch expression="capacity.length()-temp.length()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
