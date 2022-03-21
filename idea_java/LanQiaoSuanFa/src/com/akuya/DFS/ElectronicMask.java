@@ -19,6 +19,8 @@ public class ElectronicMask {
         StringBuilder capacity=new StringBuilder();
         dsf(str,level,pos,capacity);
         System.out.println(result);
+        
+
     }
     public static void dsf(String str,int level,int pos,StringBuilder capacity){
 
