@@ -38,9 +38,15 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.FullArrangement">
     <configuration name="EasyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.EasyTest" />
+=======
+  <component name="RunManager" selected="Application.ElectronicMask">
+    <configuration name="CoinMethodNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.DP.CoinMethodNumber" />
+>>>>>>> 6370dae (Adults collapse in a flash)
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="FullArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.FullArrangement" />
+=======
+    <configuration name="ElectronicMask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.ElectronicMask" />
+>>>>>>> 6370dae (Adults collapse in a flash)
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.MazePath" />
+    <configuration name="FrogJumpingStone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.DP.FrogJumpingStone" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="com.akuya.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TheGroupOfTel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.TheGroupOfTel" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.akuya.DFS.*" />
+=======
+    <configuration name="MazePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.MazePath" />
+      <module name="LanQiaoSuanFa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFS.*" />
+>>>>>>> 6370dae (Adults collapse in a flash)
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +126,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.FullArrangement" />
         <item itemvalue="Application.TheGroupOfTel" />
         <item itemvalue="Application.ElectronicMask" />
         <item itemvalue="Application.EasyTest" />
         <item itemvalue="Application.MazePath" />
+=======
+        <item itemvalue="Application.ElectronicMask" />
+        <item itemvalue="Application.EasyTest" />
+        <item itemvalue="Application.MazePath" />
+        <item itemvalue="Application.FrogJumpingStone" />
+        <item itemvalue="Application.CoinMethodNumber" />
+>>>>>>> 6370dae (Adults collapse in a flash)
       </list>
     </recent_temporary>
   </component>
@@ -141,9 +169,12 @@
       <workItem from="1647606139613" duration="10157000" />
       <workItem from="1647743338195" duration="10295000" />
       <workItem from="1647758521929" duration="1323000" />
+<<<<<<< HEAD
       <workItem from="1647763770257" duration="1291000" />
       <workItem from="1647866072178" duration="1754000" />
       <workItem from="1647956174631" duration="3786000" />
+=======
+>>>>>>> 6370dae (Adults collapse in a flash)
     </task>
     <servers />
   </component>
@@ -159,9 +190,15 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/DFS/FullArrangement.java</url>
           <line>14</line>
           <option name="timeStamp" value="12" />
+=======
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/DFS/ElectronicMask.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
+>>>>>>> 6370dae (Adults collapse in a flash)
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
