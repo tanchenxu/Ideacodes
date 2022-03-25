@@ -35,6 +35,7 @@ public class LegalBracket {
             str.append("(");
             brack[0]--;
             dfs(number,str,brack);
+            str.deleteCharAt(str.length()-1);
             brack[0]++;
         }
 
@@ -42,6 +43,7 @@ public class LegalBracket {
             str.append(")");
             brack[1]--;
             dfs(number,str,brack);
+            str.deleteCharAt(str.length()-1);
             brack[1]++;
         }
     }
