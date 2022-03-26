@@ -44,11 +44,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.IslandIssueD">
-    <configuration name="FullArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.FullArrangement" />
+  <component name="RunManager" selected="Application.SameTree">
+    <configuration name="FullArrangementDle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.FullArrangementDle" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -60,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullArrangementDle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.FullArrangementDle" />
+    <configuration name="IslandIssueB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.BFS.IslandIssueB" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.DFS.*" />
+          <option name="PATTERN" value="com.akuya.BFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheGroupOfTel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.TheGroupOfTel" />
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.SameTree" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SameTree" />
+        <item itemvalue="Application.IslandIssueB" />
         <item itemvalue="Application.IslandIssueD" />
         <item itemvalue="Application.LegalBracket" />
         <item itemvalue="Application.FullArrangementDle" />
-        <item itemvalue="Application.FullArrangement" />
-        <item itemvalue="Application.TheGroupOfTel" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +156,9 @@
       <workItem from="1648033055890" duration="3064000" />
       <workItem from="1648135264912" duration="1290000" />
       <workItem from="1648189610461" duration="4222000" />
+      <workItem from="1648201309461" duration="3261000" />
+      <workItem from="1648204790088" duration="3090000" />
+      <workItem from="1648209630932" duration="1754000" />
     </task>
     <servers />
   </component>
