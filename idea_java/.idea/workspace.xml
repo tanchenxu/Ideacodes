@@ -47,20 +47,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.SameTree">
-    <configuration name="FullArrangementDle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.FullArrangementDle" />
-      <module name="LanQiaoSuanFa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akuya.DFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Maze">
     <configuration name="IslandIssueB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.BFS.IslandIssueB" />
       <module name="LanQiaoSuanFa" />
@@ -100,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.BFS.Maze" />
+      <module name="LanQiaoSuanFa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuya.BFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.SameTree" />
       <module name="LanQiaoSuanFa" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maze" />
         <item itemvalue="Application.SameTree" />
         <item itemvalue="Application.IslandIssueB" />
         <item itemvalue="Application.IslandIssueD" />
         <item itemvalue="Application.LegalBracket" />
-        <item itemvalue="Application.FullArrangementDle" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +159,8 @@
       <workItem from="1648201309461" duration="3261000" />
       <workItem from="1648204790088" duration="3090000" />
       <workItem from="1648209630932" duration="1754000" />
+      <workItem from="1648347020474" duration="5385000" />
+      <workItem from="1648357377936" duration="1960000" />
     </task>
     <servers />
   </component>
@@ -188,6 +190,16 @@
           <line>21</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/BFS/Maze.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/BFS/Maze.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="11" />
@@ -196,8 +208,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="startx+move[1][i]" language="JAVA" />
-        <watch expression="starty+move[0][i]" language="JAVA" />
+        <watch expression="top.val" language="JAVA" custom="com.sun.org.apache.xalan.internal.xsltc.compiler.TopLevelElement,com.sun.xml.internal.bind.v2.schemagen.xmlschema.TopLevelAttribute" />
       </configuration>
     </watches-manager>
   </component>

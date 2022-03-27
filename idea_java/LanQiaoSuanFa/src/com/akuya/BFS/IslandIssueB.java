@@ -21,6 +21,7 @@ import java.util.Scanner;
 class Node{
     int x;
     int y;
+    int val;
 }
 
 public class IslandIssueB {
