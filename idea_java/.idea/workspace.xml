@@ -45,15 +45,15 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Maze">
-    <configuration name="IslandIssueB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.BFS.IslandIssueB" />
+  <component name="RunManager" selected="Application.FinancialFigures">
+    <configuration name="FinancialFigures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.FinancialFigures" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.BFS.*" />
+          <option name="PATTERN" value="com.akuya.RealProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IslandIssueD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.IslandIssueD" />
+    <configuration name="SuperLargeJadeSpiralPill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.SuperLargeJadeSpiralPill" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.DFS.*" />
+          <option name="PATTERN" value="com.akuya.RealProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LegalBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.LegalBracket" />
+    <configuration name="TheLeastTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TheLeastTime" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.DFS.*" />
+          <option name="PATTERN" value="com.akuya.RealProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.BFS.Maze" />
+    <configuration name="TheNumberOfA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TheNumberOfA" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.BFS.*" />
+          <option name="PATTERN" value="com.akuya.RealProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.SameTree" />
+    <configuration name="TheTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TheTwo" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.DFS.*" />
+          <option name="PATTERN" value="com.akuya.RealProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.SameTree" />
-        <item itemvalue="Application.IslandIssueB" />
-        <item itemvalue="Application.IslandIssueD" />
-        <item itemvalue="Application.LegalBracket" />
+        <item itemvalue="Application.FinancialFigures" />
+        <item itemvalue="Application.SuperLargeJadeSpiralPill" />
+        <item itemvalue="Application.TheLeastTime" />
+        <item itemvalue="Application.TheTwo" />
+        <item itemvalue="Application.TheNumberOfA" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +161,7 @@
       <workItem from="1648209630932" duration="1754000" />
       <workItem from="1648347020474" duration="5385000" />
       <workItem from="1648357377936" duration="1960000" />
+      <workItem from="1648360606308" duration="14277000" />
     </task>
     <servers />
   </component>
@@ -200,6 +201,11 @@
           <line>29</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/TheLeastTime.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="11" />
@@ -208,7 +214,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="top.val" language="JAVA" custom="com.sun.org.apache.xalan.internal.xsltc.compiler.TopLevelElement,com.sun.xml.internal.bind.v2.schemagen.xmlschema.TopLevelAttribute" />
+        <watch expression="target+2" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
