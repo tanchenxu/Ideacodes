@@ -44,37 +44,58 @@ import java.util.Scanner;
  * @create 2022-03-27-17:54
  */
 public class Socket {
+    static int soy,sox,ply,plx;
+    static int socket[][],plug[][];
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
         Scanner scanner = new Scanner(System.in);
-        int soy = scanner.nextInt();
-        int sox = scanner.nextInt();
-        int socket[][] = new int[soy][sox];
+         soy = scanner.nextInt();
+         sox = scanner.nextInt();
+         socket = new int[soy][sox];
         for (int i = 0; i < soy; i++) {
             for (int j = 0; j < sox; j++) {
                 socket[i][j] = scanner.nextInt();//0为板子，1为孔
             }
         }
-        int ply = scanner.nextInt();
-        int plx = scanner.nextInt();
-        int plug[][] = new int[ply][plx];
+         ply = scanner.nextInt();
+         plx = scanner.nextInt();
+         plug = new int[ply][plx];
         for (int i = 0; i < ply; i++) {
             for (int j = 0; j < plx; j++) {
                 plug[i][j] = scanner.nextInt();//0为板子，1为头
             }
         }
 
-    }
+        if(ply>soy||plx>sox){
+            System.out.println("NO");
+            return;
+        }
 
-    public static String isOK(int socket[][], int plug[][], int soy, int sox, int ply, int plx) {
-        int px,py;
-        for (int i = 0; i < ply; i++) {
-            for (int j = 0; j < plx; j++) {
-                if (plug[i][j] == 1) {
-                    px=i;
-                    py=j;
+        for(int i=0;i<=soy-ply;i++){
+            for(int j=0;j<=sox-plx;j++){
+                if(isOK(i,j)){
+                    System.out.print(i+1+" ");
+                    System.out.println(j+1+" ");
+                    long end = System.currentTimeMillis();
+                    System.out.println("共耗时"+(end-start)+"毫秒");
+                    return;
                 }
             }
         }
 
+        System.out.println("NO");
+        long end = System.currentTimeMillis();
+        System.out.println("共耗时"+(end-start)+"毫秒");
+    }
+
+    public static boolean isOK(int a,int b) {
+        for(int i=0;i<ply;i++){
+            for(int j=0;j<plx;j++){
+                if(plug[i][j]==1&&socket[i+a][j+b]==0)
+                    return false;
+            }
+        }
+
+    return true;
     }
 }
