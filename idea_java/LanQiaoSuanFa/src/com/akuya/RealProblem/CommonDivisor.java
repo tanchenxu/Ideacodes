@@ -54,6 +54,15 @@ public class CommonDivisor {
         for(Long l:result){
             System.out.println(l);
         }
+        System.out.println("**********************");
+        for(Long l:set1){
+            System.out.println(l);
+        }
+        System.out.println("*******************");
+        for(Long l:set2){
+            System.out.println(l);
+        }
+        System.out.println("****************");
         System.out.println(result.size());
 
     }
@@ -83,10 +92,13 @@ public class CommonDivisor {
 
     public static void put3(Long c){
         for(Long i=1L;i<c/i;i++){
-            if(c%i==0&&(set1.contains(i)||set2.contains(i))){
-                result.add(i);
-            }else if(c%i==0&&(set1.contains(c/i)||set2.contains(c/i))){
-                result.add(c/i);
+            if(c%i==0){
+                if(set2.contains(i)||set1.contains(i)){
+                    result.add((i));
+                }
+                if(set1.contains(c/i)||set2.contains(c/i)){
+                    result.add(c/i);
+                }
             }
         }
     }

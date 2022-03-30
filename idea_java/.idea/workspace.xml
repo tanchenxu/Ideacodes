@@ -164,6 +164,7 @@
       <workItem from="1648360606308" duration="14277000" />
       <workItem from="1648473443672" duration="614000" />
       <workItem from="1648553993163" duration="5476000" />
+      <workItem from="1648631874228" duration="339000" />
     </task>
     <servers />
   </component>
@@ -222,6 +223,16 @@
           <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/Socket.java</url>
           <line>68</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/CommonDivisor.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/CommonDivisor.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
