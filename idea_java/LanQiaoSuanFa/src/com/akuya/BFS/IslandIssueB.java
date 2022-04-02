@@ -53,7 +53,7 @@ public class IslandIssueB {
         System.out.println("岛屿的个数为="+" "+number);
     }
 
-   public static void bfs(int starty,int startx,int sea[][],boolean island[][]){
+   private static void bfs(int starty,int startx,int sea[][],boolean island[][]){
        Queue<Node> queue=new LinkedList<Node>();
        node.x=startx;
        node.y=starty;

@@ -24,35 +24,35 @@ public class GlobalWarming {
     static boolean mery[][];
     static int number=0;
     public static void main(String[] args) {
-        node =new Node();
-        Scanner scanner =new Scanner(System.in);
-        wide=scanner.nextInt();
-        length=scanner.nextInt();
-        mery=new boolean[wide][length];
-        int area[][]=new int [wide][length];
-        for(int i=0;i<wide;i++){
-            for(int j=0;j<length;j++){
-                area[i][j]=scanner.nextInt();//1为岛屿，0为海洋
+        node = new Node();
+        Scanner scanner = new Scanner(System.in);
+        wide = scanner.nextInt();
+        length = scanner.nextInt();
+        mery = new boolean[wide][length];
+        int area[][] = new int[wide][length];
+        for (int i = 0; i < wide; i++) {
+            for (int j = 0; j < length; j++) {
+                area[i][j] = scanner.nextInt();//1为岛屿，0为海洋
             }
         }
 
-        for(int i=0;i<wide;i++){
-            for(int j=0;j<length;j++){
-                if(area[i][j]==1&&!mery[i][j]){
-                    bfs(area,0,0);
-                    if(!flag){
+        for (int i = 0; i < wide; i++) {
+            for (int j = 0; j < length; j++) {
+                if (area[i][j] == 1 && !mery[i][j]) {
+                    bfs(area, i, j);
+                    if (!flag) {
                         number++;
-                        flag=false;
+                        flag = false;
 
                     }
 
                 }
             }
-            System.out.println(number);
-            scanner.close();
         }
-
-        private static void bfs(int area[][], int x, int y) {
+        System.out.println(number);
+        scanner.close();
+    }
+        private static void bfs ( int area[][], int x, int y){
             Queue<Node> queue = new LinkedList<Node>();
             node.x = x;
             node.y = y;
@@ -81,5 +81,8 @@ public class GlobalWarming {
             }
 
         }
-    }
+
+}
+
+
 
