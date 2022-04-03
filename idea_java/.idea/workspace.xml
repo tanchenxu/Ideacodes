@@ -47,7 +47,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.DfsFullArrangement">
+  <component name="RunManager" selected="Application.IncludingTwoDays">
     <configuration name="CommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.CommonDivisor" />
       <module name="LanQiaoSuanFa" />
@@ -87,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IncludingTwoDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.IncludingTwoDays" />
+      <module name="LanQiaoSuanFa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuya.RealProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.MaximumProduct" />
       <module name="LanQiaoSuanFa" />
@@ -100,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Socket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.Socket" />
-      <module name="LanQiaoSuanFa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akuya.RealProblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncludingTwoDays" />
         <item itemvalue="Application.DfsFullArrangement" />
         <item itemvalue="Application.MaximumProduct" />
         <item itemvalue="Application.GlobalWarming" />
         <item itemvalue="Application.CommonDivisor" />
-        <item itemvalue="Application.Socket" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +171,7 @@
       <workItem from="1648730017715" duration="3085000" />
       <workItem from="1648800859621" duration="2334000" />
       <workItem from="1648804342317" duration="3143000" />
+      <workItem from="1648971934762" duration="728000" />
     </task>
     <servers />
   </component>
@@ -259,6 +260,21 @@
           <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/MaximumProduct.java</url>
           <line>19</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/IncludingTwoDays.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/IncludingTwoDays.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/IncludingTwoDays.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
