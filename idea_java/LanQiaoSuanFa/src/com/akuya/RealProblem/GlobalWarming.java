@@ -8,11 +8,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-class Node{
-    int x;
-    int y;
-    int val;
-}
 
 public class GlobalWarming {
     static boolean flag=false;
