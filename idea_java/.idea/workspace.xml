@@ -47,7 +47,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.SubstringScore">
+  <component name="RunManager" selected="Application.JumpingXiaoMing">
     <configuration name="AmountError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.AmountError" />
       <module name="LanQiaoSuanFa" />
@@ -61,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncludingTwoDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.IncludingTwoDays" />
+    <configuration name="JumpingXiaoMing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.JumpingXiaoMing" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JumpingXiaoMing" />
         <item itemvalue="Application.SubstringScore" />
         <item itemvalue="Application.AmountError" />
         <item itemvalue="Application.TwoNQueen" />
         <item itemvalue="Application.ShareChocolate" />
-        <item itemvalue="Application.IncludingTwoDays" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,7 @@
       <workItem from="1649142779877" duration="127000" />
       <workItem from="1649157090639" duration="1519000" />
       <workItem from="1649162417409" duration="81000" />
+      <workItem from="1649245862441" duration="3568000" />
     </task>
     <servers />
   </component>
@@ -296,6 +297,21 @@
           <line>28</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/JumpingXiaoMing.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/JumpingXiaoMing.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/JumpingXiaoMing.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="11" />
@@ -304,7 +320,11 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="max" language="JAVA" />
+        <watch expression="value" language="JAVA" />
+        <watch expression="mery" language="JAVA" />
+        <watch expression="value[n+1]" language="JAVA" />
+        <watch expression="i" language="JAVA" />
+        <watch expression="j" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
