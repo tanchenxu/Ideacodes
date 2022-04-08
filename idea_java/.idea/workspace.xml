@@ -47,9 +47,22 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.JumpingXiaoMing">
-    <configuration name="AmountError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.AmountError" />
+  <component name="RunManager" selected="Application.TestE">
+    <configuration name="LegalBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.LegalBracket" />
+      <module name="LanQiaoSuanFa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuya.DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestD" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpingXiaoMing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.JumpingXiaoMing" />
+    <configuration name="TestE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestE" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShareChocolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.ShareChocolate" />
+    <configuration name="huowubaifang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.test.huowubaifang" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.RealProblem.*" />
+          <option name="PATTERN" value="com.akuya.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.SubstringScore" />
+    <configuration name="zhixian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.test.zhixian" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.RealProblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoNQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TwoNQueen" />
-      <module name="LanQiaoSuanFa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akuya.RealProblem.*" />
+          <option name="PATTERN" value="com.akuya.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JumpingXiaoMing" />
-        <item itemvalue="Application.SubstringScore" />
-        <item itemvalue="Application.AmountError" />
-        <item itemvalue="Application.TwoNQueen" />
-        <item itemvalue="Application.ShareChocolate" />
+        <item itemvalue="Application.TestE" />
+        <item itemvalue="Application.TestD" />
+        <item itemvalue="Application.zhixian" />
+        <item itemvalue="Application.huowubaifang" />
+        <item itemvalue="Application.LegalBracket" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +178,8 @@
       <workItem from="1649157090639" duration="1519000" />
       <workItem from="1649162417409" duration="81000" />
       <workItem from="1649245862441" duration="3568000" />
+      <workItem from="1649294545141" duration="1085000" />
+      <workItem from="1649416302271" duration="10169000" />
     </task>
     <servers />
   </component>
@@ -196,11 +198,6 @@
           <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/DFS/FullArrangementDle.java</url>
           <line>13</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/DFS/LegalBracket.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/DFS/IslandIssueD.java</url>
@@ -312,6 +309,36 @@
           <line>31</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/Pack.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/Pack.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/TestD.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/TestD.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/TestE.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/TestE.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="11" />
@@ -320,9 +347,6 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="value" language="JAVA" />
-        <watch expression="mery" language="JAVA" />
-        <watch expression="value[n+1]" language="JAVA" />
         <watch expression="i" language="JAVA" />
         <watch expression="j" language="JAVA" />
       </configuration>

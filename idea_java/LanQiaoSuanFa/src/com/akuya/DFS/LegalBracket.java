@@ -21,7 +21,7 @@ public class LegalBracket {
         for(String s:result){
             System.out.println(s);
         }
-
+        System.out.println(result.size());
     }
 
     public static void dfs(int number,StringBuilder str,int []brack){
