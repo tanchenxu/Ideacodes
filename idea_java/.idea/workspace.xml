@@ -181,6 +181,8 @@
       <workItem from="1649294545141" duration="1085000" />
       <workItem from="1649416302271" duration="10169000" />
       <workItem from="1649517232436" duration="71000" />
+      <workItem from="1649682101666" duration="95000" />
+      <workItem from="1649682216663" duration="5000" />
     </task>
     <servers />
   </component>
@@ -339,6 +341,11 @@
           <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/TestE.java</url>
           <line>24</line>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/CompetitionE.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
