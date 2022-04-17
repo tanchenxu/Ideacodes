@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -47,20 +48,12 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TestE">
-    <configuration name="LegalBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.DFS.LegalBracket" />
-      <module name="LanQiaoSuanFa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akuya.DFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.akuya.LeetCode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.three">
     <configuration name="TestD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestD" />
       <module name="LanQiaoSuanFa" />
@@ -100,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="three" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.LeetCode.three" />
+      <module name="LanQiaoSuanFa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuya.LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="zhixian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.test.zhixian" />
       <module name="LanQiaoSuanFa" />
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.three" />
         <item itemvalue="Application.TestE" />
         <item itemvalue="Application.TestD" />
         <item itemvalue="Application.zhixian" />
         <item itemvalue="Application.huowubaifang" />
-        <item itemvalue="Application.LegalBracket" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +190,7 @@
       <workItem from="1649682101666" duration="95000" />
       <workItem from="1649682216663" duration="5000" />
       <workItem from="1650068870911" duration="437000" />
+      <workItem from="1650170310954" duration="3531000" />
     </task>
     <servers />
   </component>
@@ -347,6 +354,11 @@
           <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/RealProblem/CompetitionE.java</url>
           <line>6</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/LeetCode/three.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
