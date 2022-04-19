@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +53,7 @@
       <recent name="com.akuya.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.three">
+  <component name="RunManager" selected="Application.four">
     <configuration name="TestD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestD" />
       <module name="LanQiaoSuanFa" />
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="huowubaifang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.test.huowubaifang" />
+    <configuration name="four" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.LeetCode.four" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.test.*" />
+          <option name="PATTERN" value="com.akuya.LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.four" />
         <item itemvalue="Application.three" />
         <item itemvalue="Application.TestE" />
         <item itemvalue="Application.TestD" />
         <item itemvalue="Application.zhixian" />
-        <item itemvalue="Application.huowubaifang" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +191,10 @@
       <workItem from="1649682216663" duration="5000" />
       <workItem from="1650068870911" duration="437000" />
       <workItem from="1650170310954" duration="3531000" />
+      <workItem from="1650179368610" duration="3003000" />
+      <workItem from="1650182775974" duration="487000" />
+      <workItem from="1650354428913" duration="681000" />
+      <workItem from="1650372150010" duration="2031000" />
     </task>
     <servers />
   </component>
@@ -355,11 +359,6 @@
           <line>6</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/LeetCode/three.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="11" />
@@ -368,8 +367,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="i" language="JAVA" />
-        <watch expression="j" language="JAVA" />
+        <watch expression="occ.size()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
