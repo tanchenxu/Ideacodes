@@ -19,7 +19,7 @@ public class four {
             num2[i]=scanner.nextInt();
         }
         List<Integer> list=new ArrayList<>();
-        for(int i=0;i<num1.length;i++){
+        for(int i=0;i<Math.min()num1.length;i++){
             list.add(num1[i]);
             list.add(num2[i]);
         }
@@ -34,7 +34,7 @@ public class four {
         Arrays.sort(result);
         if(result.length%2==0){
             double ans=(double) (result[result.length/2]+result[result.length/2-1])/2;
-            System.out.println("%.5lf\n",ans);
+            System.out.printf("%.5f\n",ans);
         }else{
             double ans=(double)result[result.length/2];
             System.out.println(ans);
