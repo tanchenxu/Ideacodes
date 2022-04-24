@@ -39,12 +39,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -53,7 +57,7 @@
       <recent name="com.akuya.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.four">
+  <component name="RunManager" selected="JUnit.test1.test2">
     <configuration name="TestD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestD" />
       <module name="LanQiaoSuanFa" />
@@ -106,26 +110,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zhixian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.test.zhixian" />
-      <module name="LanQiaoSuanFa" />
+    <configuration name="test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.test.*" />
+          <option name="PATTERN" value="com.akuya.Reflex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.akuya.Reflex" />
+      <option name="MAIN_CLASS_NAME" value="com.akuya.Reflex.test1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test1.test2" />
         <item itemvalue="Application.four" />
         <item itemvalue="Application.three" />
         <item itemvalue="Application.TestE" />
         <item itemvalue="Application.TestD" />
-        <item itemvalue="Application.zhixian" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +203,7 @@
       <workItem from="1650354428913" duration="681000" />
       <workItem from="1650372150010" duration="3864000" />
       <workItem from="1650556026992" duration="84000" />
+      <workItem from="1650768785587" duration="3013000" />
     </task>
     <servers />
   </component>

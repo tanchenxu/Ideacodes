@@ -19,7 +19,7 @@ public class four {
             num2[i]=scanner.nextInt();
         }
         List<Integer> list=new ArrayList<>();
-        for(int i=0;i<Math.min()num1.length;i++){
+        for(int i=0;i<Math.min(num1.length,num2.length);i++){
             list.add(num1[i]);
             list.add(num2[i]);
         }
