@@ -57,9 +57,9 @@
       <recent name="com.akuya.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test1.test2">
-    <configuration name="TestD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestD" />
+  <component name="RunManager" selected="Application.five">
+    <configuration name="TestE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestE" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akuya.RealProblem.TestE" />
+    <configuration name="five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akuya.LeetCode.five" />
       <module name="LanQiaoSuanFa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akuya.RealProblem.*" />
+          <option name="PATTERN" value="com.akuya.LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.five" />
         <item itemvalue="JUnit.test1.test2" />
         <item itemvalue="Application.four" />
         <item itemvalue="Application.three" />
         <item itemvalue="Application.TestE" />
-        <item itemvalue="Application.TestD" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +204,7 @@
       <workItem from="1650372150010" duration="3864000" />
       <workItem from="1650556026992" duration="84000" />
       <workItem from="1650768785587" duration="3013000" />
+      <workItem from="1651059511166" duration="3552000" />
     </task>
     <servers />
   </component>
@@ -368,6 +369,11 @@
           <line>6</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LanQiaoSuanFa/src/com/akuya/LeetCode/five.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="11" />
@@ -377,6 +383,8 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="occ.size()" language="JAVA" />
+        <watch expression="maxlen" language="JAVA" />
+        <watch expression="begin" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
